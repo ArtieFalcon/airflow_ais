@@ -20,9 +20,10 @@ def print_weather():
     API_key = '1d91c38465f45fd37bd5d673da5439f4'
     url_api = f'https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid={API_key}'
     response = requests.get(url_api)
-    timezone = response.json()['timezone']
+    timezone = response.json() #['timezone']
     #author = response.json()['author']
-    print('Weather in {}'.format(timezone))
+    print(timezone)
+    #print('Weather in {}'.format(timezone))
 
 dag = DAG(
     'welcome_ais_dag',
