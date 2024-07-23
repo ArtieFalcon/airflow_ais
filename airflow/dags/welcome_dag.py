@@ -14,7 +14,15 @@ def print_random_quote():
     response = requests.get('https://api.quotable.io/random')
     quote = response.json()['content']
     author = response.json()['author']
-    print('Quote of the day: "{}"'.format(quote) + f'by {author}' )
+    print('Quote of the day: "{}"'.format(quote) + f' by {author}' )
+
+def print_weather():
+    API_key = '1d91c38465f45fd37bd5d673da5439f4'
+    url_api = f'https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid={API_key}'
+    response = requests.get(url_api)
+    timezone = response.json()['timezone']
+    #author = response.json()['author']
+    print('Weather in {}'.format(timezone))
 
 dag = DAG(
     'welcome_ais_dag',
@@ -41,6 +49,13 @@ print_random_quote = PythonOperator(
     dag=dag
 )
 
+print_weather = PythonOperator(
+    task_id='print_weather',
+    python_callable=print_weather,
+    dag=dag
+)
+
 # Set the dependencies between the tasks
 print_welcome_task >> print_date_task >> print_random_quote
+print_date_task >> print_weather
 
