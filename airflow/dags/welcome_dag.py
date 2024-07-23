@@ -22,8 +22,8 @@ def print_weather():
     response = requests.get(url_api)
     print('json full: ' + str(response))
     json_full = response.json() #['location']
-    tz_id = json_full.location.tz_id
-    print('AIS json full: ' + str(json_full))
+    tz_id = json_full['location'].tz_id
+    print(json_full)
     print('AIS location' + str(tz_id))
 
 
