@@ -13,12 +13,13 @@ def print_date():
 def print_random_quote():
     response = requests.get('https://api.quotable.io/random')
     quote = response.json()['content']
-    print('Quote of the day: "{}"'.format(quote))
+    author = response.json()['author']
+    print('Quote of the day: "{}"'.format(quote) + f'by {author}' )
 
 dag = DAG(
     'welcome_ais_dag',
     default_args={'start_date': days_ago(1)},
-    schedule_interval='0 23 * * *',
+    schedule_interval='0 11 * * *',
     catchup=False
 )
 
