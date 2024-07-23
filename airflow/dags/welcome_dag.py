@@ -17,12 +17,12 @@ def print_random_quote():
     print('Quote of the day: "{}"'.format(quote) + f' by {author}' )
 
 def print_weather():
-    API_key = '1d91c38465f45fd37bd5d673da5439f4'
-    url_api = f'https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid={API_key}'
+    YOUR_API_KEY = '236fb343770d427fab8125959242307' #'1d91c38465f45fd37bd5d673da5439f4'
+    url_api = f'http://api.weatherapi.com/v1/current.json?key={YOUR_API_KEY}&q=bulk'
     response = requests.get(url_api)
-    timezone = response.json() #['timezone']
+    jsonjson = response.json() #['timezone']
     #author = response.json()['author']
-    print(timezone)
+    print(jsonjson)
     #print('Weather in {}'.format(timezone))
 
 dag = DAG(
