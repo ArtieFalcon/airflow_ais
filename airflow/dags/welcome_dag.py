@@ -21,7 +21,8 @@ def print_weather():
     url_api = f'http://api.weatherapi.com/v1/current.json?key={YOUR_API_KEY}&q=bulk'
     response = requests.get(url_api)
     location = response.json()['location']
-    print('AIS' + location)
+    print('AIS' + str(location))
+    
 
 dag = DAG(
     'welcome_ais_dag',
