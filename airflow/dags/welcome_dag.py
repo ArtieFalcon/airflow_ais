@@ -25,7 +25,7 @@ def print_weather():
     print(str(json_full))
     location = json_full['location']['tz_id']
     temp_c = json_full['current']['temp_c']
-    print('AIS location' + str(tzlocation_id) + f'and temperature = {temp_c} C')
+    print('AIS location' + str(location) + f'and temperature = {temp_c} C')
 
 dag = DAG(
     'welcome_ais_dag',
