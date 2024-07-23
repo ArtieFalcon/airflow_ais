@@ -17,13 +17,11 @@ def print_random_quote():
     print('Quote of the day: "{}"'.format(quote) + f' by {author}' )
 
 def print_weather():
-    YOUR_API_KEY = '236fb343770d427fab8125959242307' #'1d91c38465f45fd37bd5d673da5439f4'
+    YOUR_API_KEY = '236fb343770d427fab8125959242307' 
     url_api = f'http://api.weatherapi.com/v1/current.json?key={YOUR_API_KEY}&q=bulk'
     response = requests.get(url_api)
-    jsonjson = response.json() #['timezone']
-    #author = response.json()['author']
-    print(jsonjson)
-    #print('Weather in {}'.format(timezone))
+    location = response.json()['location']
+    print('AIS' + location)
 
 dag = DAG(
     'welcome_ais_dag',
