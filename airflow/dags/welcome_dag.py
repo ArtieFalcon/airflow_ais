@@ -20,12 +20,12 @@ def print_weather():
     YOUR_API_KEY = '236fb343770d427fab8125959242307' 
     url_api = f'http://api.weatherapi.com/v1/current.json?key={YOUR_API_KEY}&q=bulk'
     response = requests.get(url_api)
-    print('json full: ' + str(response))
+    print('json full: ' + str(response)) 
     json_full = response.json() #['location']
     print(str(json_full))
-    tz_id = json_full['location']['tz_id']
-    print('AIS location' + str(tz_id))
-
+    location = json_full['location']['tz_id']
+    temp_c = json_full['current']['temp_c']
+    print('AIS location' + str(tzlocation_id) + f'and temperature = {temp_c} C')
 
 dag = DAG(
     'welcome_ais_dag',
