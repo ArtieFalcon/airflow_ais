@@ -4,7 +4,7 @@ from airflow.utils.dates import days_ago
 from datetime import datetime
 import requests
 import base64
-from custom_operator.hello_operator import HelloOperator
+from operators.hello_operator import HelloOperator
 
     
 
