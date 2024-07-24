@@ -1,4 +1,4 @@
 standalone_admin_password.txt
 secrets.txt 
-logs/
+airflow/logs/
 airflow/airflow.db
