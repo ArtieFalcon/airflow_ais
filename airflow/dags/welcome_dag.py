@@ -3,6 +3,7 @@ from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import datetime
 import requests
+import base64
 
 def print_welcome():
     print('AIS! Welcome to Airflow!')
@@ -17,7 +18,8 @@ def print_random_quote():
     print('Quote of the day: "{}"'.format(quote) + f' by {author}' )
 
 def print_weather():
-    YOUR_API_KEY = '236fb343770d427fab8125959242307' 
+    # how to decode - in file secrets.txt
+    YOUR_API_KEY = base64.b64decode("MjM2ZmIzNDM3NzBkNDI3ZmFiODEyNTk1OTI0MjMwNw==").decode("utf-8")
     url_api = f'http://api.weatherapi.com/v1/current.json?key={YOUR_API_KEY}&q=bulk'
     response = requests.get(url_api)
     print('json full: ' + str(response)) 
