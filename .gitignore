@@ -2,3 +2,6 @@ standalone_admin_password.txt
 secrets.txt 
 airflow/logs/
 airflow/airflow.db
+
+#to really ignore files after creation:
+# git rm --cached secrets.txt
