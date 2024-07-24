@@ -4,6 +4,10 @@ from airflow.utils.dates import days_ago
 from datetime import datetime
 import requests
 import base64
+from custom_operator.hello_operator import HelloOperator
+
+    
+
 
 def print_welcome():
     print('AIS! Welcome to Airflow!')
@@ -60,7 +64,9 @@ print_weather = PythonOperator(
     dag=dag
 )
 
+hello_task = HelloOperator(task_id="hello_task", name="Arti")
+
 # Set the dependencies between the tasks
 print_welcome_task >> print_date_task >> print_random_quote
 print_date_task >> print_weather
-
+print_date_task >> hello_task
