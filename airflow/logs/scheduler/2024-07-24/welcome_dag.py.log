@@ -201,3 +201,206 @@
 [2024-07-24T09:57:18.184+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:57:18.184+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2024-07-24T09:57:18.192+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:57:18.192+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
 [2024-07-24T09:57:18.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.065 seconds
+[2024-07-24T09:57:48.426+0000] {processor.py:161} INFO - Started process (PID=111) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:57:48.428+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T09:57:48.429+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:57:48.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:57:48.442+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:57:48.456+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:57:48.455+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T09:57:48.464+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:57:48.464+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T09:57:48.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.054 seconds
+[2024-07-24T09:58:18.718+0000] {processor.py:161} INFO - Started process (PID=112) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:58:18.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T09:58:18.722+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:58:18.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:58:18.738+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:58:18.756+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:58:18.756+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T09:58:18.768+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:58:18.768+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T09:58:18.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.071 seconds
+[2024-07-24T09:58:48.834+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:58:48.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T09:58:48.836+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:58:48.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:58:48.848+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:58:48.863+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:58:48.863+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T09:58:48.871+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:58:48.871+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T09:58:48.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.053 seconds
+[2024-07-24T09:59:19.159+0000] {processor.py:161} INFO - Started process (PID=126) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:59:19.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T09:59:19.161+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:59:19.161+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:59:19.171+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:59:19.184+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:59:19.184+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T09:59:19.193+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:59:19.193+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T09:59:19.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.050 seconds
+[2024-07-24T09:59:49.468+0000] {processor.py:161} INFO - Started process (PID=127) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:59:49.470+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T09:59:49.471+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:59:49.471+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:59:49.483+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T09:59:49.498+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:59:49.498+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T09:59:49.507+0000] {logging_mixin.py:188} INFO - [2024-07-24T09:59:49.507+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T09:59:49.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.056 seconds
+[2024-07-24T10:00:20.042+0000] {processor.py:161} INFO - Started process (PID=128) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:00:20.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:00:20.045+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:00:20.044+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:00:20.056+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:00:20.071+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:00:20.071+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:00:20.080+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:00:20.080+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:00:20.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.053 seconds
+[2024-07-24T10:00:50.337+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:00:50.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:00:50.339+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:00:50.339+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:00:50.351+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:00:50.366+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:00:50.366+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:00:50.375+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:00:50.375+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:00:50.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.054 seconds
+[2024-07-24T10:01:20.693+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:01:20.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:01:20.696+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:01:20.696+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:01:20.710+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:01:20.726+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:01:20.726+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:01:20.737+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:01:20.737+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:01:20.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.063 seconds
+[2024-07-24T10:01:51.029+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:01:51.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:01:51.032+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:01:51.032+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:01:51.047+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:01:51.064+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:01:51.064+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:01:51.073+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:01:51.073+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:01:51.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.059 seconds
+[2024-07-24T10:02:21.320+0000] {processor.py:161} INFO - Started process (PID=132) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:02:21.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:02:21.322+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:02:21.322+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:02:21.334+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:02:21.349+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:02:21.349+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:02:21.358+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:02:21.358+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:02:21.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.053 seconds
+[2024-07-24T10:02:51.570+0000] {processor.py:161} INFO - Started process (PID=133) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:02:51.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:02:51.573+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:02:51.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:02:51.584+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:02:51.600+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:02:51.600+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:02:51.609+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:02:51.609+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:02:51.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.057 seconds
+[2024-07-24T10:03:21.893+0000] {processor.py:161} INFO - Started process (PID=134) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:03:21.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:03:21.896+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:03:21.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:03:21.909+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:03:21.924+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:03:21.924+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:03:21.933+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:03:21.933+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:03:21.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.055 seconds
+[2024-07-24T10:03:52.208+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:03:52.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:03:52.211+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:03:52.211+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:03:52.224+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:03:52.238+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:03:52.238+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:03:52.247+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:03:52.247+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:03:52.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.054 seconds
+[2024-07-24T10:04:22.554+0000] {processor.py:161} INFO - Started process (PID=136) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:04:22.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:04:22.557+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:04:22.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:04:22.571+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:04:22.590+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:04:22.590+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:04:22.603+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:04:22.603+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:04:22.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.070 seconds
+[2024-07-24T10:04:52.907+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:04:52.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:04:52.910+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:04:52.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:04:52.921+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:04:52.936+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:04:52.936+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:04:52.946+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:04:52.946+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:04:52.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.055 seconds
+[2024-07-24T10:05:23.184+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:05:23.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:05:23.187+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:05:23.187+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:05:23.200+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:05:23.215+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:05:23.215+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:05:23.224+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:05:23.224+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:05:23.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.054 seconds
+[2024-07-24T10:05:53.501+0000] {processor.py:161} INFO - Started process (PID=139) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:05:53.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:05:53.504+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:05:53.503+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:05:53.517+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:05:53.535+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:05:53.535+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:05:53.544+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:05:53.544+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:05:53.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.059 seconds
+[2024-07-24T10:06:23.846+0000] {processor.py:161} INFO - Started process (PID=140) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:06:23.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:06:23.848+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:06:23.848+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:06:23.860+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:06:23.874+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:06:23.874+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:06:23.883+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:06:23.883+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:06:23.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.053 seconds
+[2024-07-24T10:06:54.150+0000] {processor.py:161} INFO - Started process (PID=141) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:06:54.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:06:54.152+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:06:54.151+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:06:54.160+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:06:54.172+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:06:54.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:06:54.181+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:06:54.181+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:06:54.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.045 seconds
+[2024-07-24T10:07:24.459+0000] {processor.py:161} INFO - Started process (PID=142) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:07:24.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:07:24.461+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:07:24.461+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:07:24.473+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:07:24.489+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:07:24.489+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:07:24.500+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:07:24.500+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:07:24.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.057 seconds
+[2024-07-24T10:07:54.824+0000] {processor.py:161} INFO - Started process (PID=143) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:07:54.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:07:54.828+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:07:54.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:07:54.844+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:07:54.862+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:07:54.862+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:07:54.871+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:07:54.871+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:07:54.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.064 seconds
+[2024-07-24T10:08:25.161+0000] {processor.py:161} INFO - Started process (PID=144) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:08:25.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:08:25.164+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:08:25.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:08:25.177+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:08:25.196+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:08:25.196+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:08:25.207+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:08:25.207+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:08:25.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.064 seconds
+[2024-07-24T10:08:55.455+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:08:55.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:08:55.456+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:08:55.456+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:08:55.463+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:08:55.474+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:08:55.473+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:08:55.481+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:08:55.481+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:08:55.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.040 seconds
+[2024-07-24T10:09:25.825+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:09:25.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:09:25.828+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:09:25.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:09:25.841+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:09:25.860+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:09:25.860+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:09:25.871+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:09:25.871+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:09:25.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.065 seconds
+[2024-07-24T10:09:56.058+0000] {processor.py:161} INFO - Started process (PID=147) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:09:56.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:09:56.060+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:09:56.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:09:56.073+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:09:56.090+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:09:56.090+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:09:56.098+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:09:56.098+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:09:56.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.057 seconds
+[2024-07-24T10:10:26.295+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:10:26.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:10:26.301+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:10:26.300+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:10:26.325+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:10:26.356+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:10:26.356+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:10:26.376+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:10:26.376+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:10:26.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.106 seconds
+[2024-07-24T10:10:56.640+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:10:56.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:10:56.643+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:10:56.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:10:56.655+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:10:56.672+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:10:56.672+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:10:56.681+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:10:56.681+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:10:56.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.057 seconds
+[2024-07-24T10:11:26.887+0000] {processor.py:161} INFO - Started process (PID=150) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:11:26.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:11:26.890+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:11:26.889+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:11:26.902+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:11:26.917+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:11:26.917+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:11:26.926+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:11:26.926+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:11:26.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.056 seconds
+[2024-07-24T10:11:57.128+0000] {processor.py:161} INFO - Started process (PID=151) to work on /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:11:57.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/welcome_dag.py for tasks to queue
+[2024-07-24T10:11:57.131+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:11:57.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:11:57.143+0000] {processor.py:840} INFO - DAG(s) 'welcome_ais_dag' retrieved from /opt/airflow/dags/welcome_dag.py
+[2024-07-24T10:11:57.159+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:11:57.159+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-07-24T10:11:57.170+0000] {logging_mixin.py:188} INFO - [2024-07-24T10:11:57.170+0000] {dag.py:3947} INFO - Setting next_dagrun for welcome_ais_dag to 2024-07-23 11:00:00+00:00, run_after=2024-07-24 11:00:00+00:00
+[2024-07-24T10:11:57.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/welcome_dag.py took 0.059 seconds
