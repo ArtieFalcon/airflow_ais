@@ -4,10 +4,7 @@ from airflow.utils.dates import days_ago
 from datetime import datetime
 import requests
 import base64
-from airflow.operators.hello_operator import HelloOperator
-
-    
-
+from operators.hello_operator import HelloOperator
 
 def print_welcome():
     print('AIS! Welcome to Airflow!')
