@@ -2,12 +2,23 @@ version: '3'
 
 services:
   ais_airflow:
-
     image: ais_airflow:latest
     volumes:
       - ./airflow:/opt/airflow
-
     ports:
       - "8080:8080"
-
     command: airflow standalone
+  
+  ais_postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    ports:
+      - 5433:5432 #5433 - pg on container, on 5432 - pg local
+    
+volumes:
+  postgres-db-volume:    
