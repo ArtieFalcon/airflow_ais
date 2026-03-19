@@ -3,6 +3,7 @@ secrets.txt
 airflow/logs/
 airflow/airflow.db
 airflow/dags/__pycache__/welcome_dag.cpython-312.pyc
+.env
 
 #to really ignore files after creation:
 # git rm --cached secrets.txt
